@@ -5,7 +5,7 @@ const PHOTOS = [
   { src: "/img/trabajo-auto.jpg", title: "Diagnóstico honesto", sub: "Frenos y tren delantero", span: "", ratio: "aspect-square" },
   { src: "/img/trabajo-motor.jpg", title: "Rectificación y motores", sub: "Motor completo en cadena", span: "", ratio: "aspect-square" },
   { src: "/img/trabajo-noche.jpg", title: "Atendemos de noche", sub: "Guardia nocturna en Berisso", span: "md:col-span-2", ratio: "aspect-[16/10] md:aspect-[2/1]" },
-  { src: "/img/logo-sanroman.jpg", title: "Nuestro taller en Berisso", sub: "Fray Mamerto Esquiú 2530", span: "md:col-span-2", ratio: "aspect-[16/10] md:aspect-[2/1]", contain: true },
+  { src: "/img/logo-sanroman.jpg", title: "Nuestro taller en Berisso", sub: "Ensenada 996", span: "md:col-span-2", ratio: "aspect-[16/10] md:aspect-[2/1]", contain: true },
 ];
 
 export const Trabajos = () => (

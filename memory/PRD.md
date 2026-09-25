@@ -24,8 +24,9 @@ Landing de una sola página para taller mecánico en Berisso. Objetivo único: m
 - Imagen OG 1200×630 (`/og-image.jpg`, generada desde `/og.html`) con meta og:image/twitter:card para compartir por WhatsApp.
 - Verificado: typecheck limpio, curl /api OK, screenshots desktop + mobile por URL pública, captura de OG.
 
+- Dirección actualizada a la real: **Ensenada 996, Berisso** (texto, mapa embebido, schema y caption de galería).
+
 ## Backlog
-- P0: Confirmar con el cliente dirección exacta (discrepancia Berisso vs ficha Google "Munro").
 - P1: Foto de Gabriel para "Por qué elegirnos" (marca personal).
 - P2: Versión PNG transparente del logo (hoy se usa el banner JPG fondo negro).
 - P2: Sumar más reseñas reales (hay 35 en la ficha).
