@@ -1,0 +1,335 @@
+{
+  "project_name": "Taller San Román - Berisso Landing",
+  "archetype": "THE PERFORMANCE PRO / INDUSTRIAL CRAFT (High-contrast Kinetic Dark)",
+  "locale": "es-AR",
+  "fonts": {
+    "heading_font": "Anton, Impact, sans-serif",
+    "body_font": "Archivo, 'DM Sans', sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "import_notes": "Anton and Archivo loaded via font-face or bundled fallbacks (Geist / Plus Jakarta Sans / JetBrains Mono as safety fallbacks). Archivo variable or DM Sans variable from @fontsource-variable."
+  },
+  "typography": {
+    "scale_px": {
+      "display": 58,
+      "h1": 46,
+      "h2": 32,
+      "h3": 22,
+      "body": 16,
+      "caption": 14
+    },
+    "letter_spacing": {
+      "display": "tracking-tight",
+      "headings": "tracking-tight uppercase",
+      "labels": "tracking-[0.2em] uppercase font-mono text-xs",
+      "body": "tracking-normal leading-relaxed"
+    }
+  },
+  "colors": {
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#0B0C0E",
+        "on_bg": "#F5F5F7",
+        "on_bg_muted": "#A1A1AA",
+        "roles": {
+          "link": "#F5C518",
+          "error": "#FF3D2E",
+          "success": "#22C55E"
+        }
+      },
+      {
+        "name": "panel_dark",
+        "kind": "solid",
+        "bg": "#14161A",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#9CA3AF",
+        "roles": {
+          "link": "#F5C518",
+          "accent_border": "#272A30"
+        }
+      },
+      {
+        "name": "panel_elevated",
+        "kind": "solid",
+        "bg": "#1C1F26",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#A3A3A3"
+      },
+      {
+        "name": "hero",
+        "kind": "image",
+        "contrast_against": "#08090A",
+        "guarantee": "scrim: linear-gradient(to bottom, rgba(11,12,14,0.75) 0%, rgba(11,12,14,0.92) 80%, #0B0C0E 100%), radial-gradient(ellipse at center, rgba(255,61,46,0.12) 0%, transparent 70%)",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#D1D5DB",
+        "roles": {
+          "link": "#F5C518",
+          "error": "#FF3D2E",
+          "success": "#22C55E"
+        }
+      },
+      {
+        "name": "glass_header",
+        "kind": "glass",
+        "contrast_against": "#0B0C0E",
+        "guarantee": "backdrop-blur-xl bg-[#0B0C0E]/85 border-b border-white/10",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#9CA3AF"
+      },
+      {
+        "name": "badge_urgent",
+        "kind": "solid",
+        "bg": "#FF3D2E",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#FFE4E1"
+      },
+      {
+        "name": "badge_yellow",
+        "kind": "solid",
+        "bg": "#F5C518",
+        "on_bg": "#0B0C0E",
+        "on_bg_muted": "#262626"
+      },
+      {
+        "name": "badge_dark",
+        "kind": "solid",
+        "bg": "#1F222A",
+        "on_bg": "#F5C518",
+        "on_bg_muted": "#D1D5DB"
+      }
+    ],
+    "accent": "#F5C518",
+    "on_accent": "#0B0C0E",
+    "secondary_accent": "#FF3D2E",
+    "on_secondary_accent": "#FFFFFF",
+    "whatsapp_green": "#25D366",
+    "on_whatsapp": "#FFFFFF",
+    "border_subtle": "rgba(255, 255, 255, 0.08)",
+    "border_highlight": "rgba(245, 197, 24, 0.3)"
+  },
+  "entry_surfaces": {
+    "/": "cinematic dark hero — urgent headline reveal + dual emergency CTAs (WhatsApp pre-filled & Llamar) + 24hs & 4.9★ trust badge stack left, kinetic workshop visual with subtle spotlight right"
+  },
+  "brand_identity": {
+    "name": "Taller San Román",
+    "slogan": "Mecánica Integral & Urgencias 24hs",
+    "location": "Berisso, Buenos Aires, Argentina",
+    "phone_display": "+54 9 11 6134-4052",
+    "phone_clean": "5491161344052",
+    "whatsapp_prefilled_text": "Hola Gabriel, necesito ayuda con mi vehículo...",
+    "whatsapp_url": "https://wa.me/5491161344052?text=Hola%20Gabriel%2C%20necesito%20ayuda%20con%20",
+    "tel_url": "tel:+5491161344052",
+    "free_quote_label": "Presupuesto sin cargo",
+    "rating": "4.9",
+    "reviews_count": "140+",
+    "google_maps_address": "Berisso, Provincia de Buenos Aires, Argentina"
+  },
+  "image_urls": [
+    {
+      "category": "hero_background",
+      "description": "Mechanic working on high performance car engine with dramatic warm side lighting",
+      "url": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHwzfHxtZWNoYW5pYyUyMHRydWNrJTIwZW5naW5lJTIwcmVwYWlyfGVufDB8fHx8MTc5MDMwMTczNnww&ixlib=rb-4.1.0&q=85",
+      "usage": "Hero background texture with dark radial scrim and spotlight gradient"
+    },
+    {
+      "category": "gallery_trabajos_truck",
+      "description": "Camión con cabina levantada y mecánico especializado en taller industrial",
+      "caption": "Mecánica Pesada y Utilitarios — Diagnóstico integral y reparación de motor diésel",
+      "url": "https://images.pexels.com/photos/6720532/pexels-photo-6720532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "usage": "Trabajos Realizados - Grid Item 1 (Camión cabina levantada)"
+    },
+    {
+      "category": "gallery_trabajos_white_car",
+      "description": "Auto blanco en reparación y elevador en taller mecánico",
+      "caption": "Tren delantero, frenos y service general en vehículos particulares",
+      "url": "https://images.unsplash.com/photo-1619505372149-07875c35b313?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwzfHxjYXIlMjByZXBhaXIlMjB3b3Jrc2hvcCUyMG1lY2hhbmljJTIwZ2FyYWdlfGVufDB8fHx8MTc5MDMwMTczNnww&ixlib=rb-4.1.0&q=85",
+      "usage": "Trabajos Realizados - Grid Item 2 (Auto blanco en reparación)"
+    },
+    {
+      "category": "gallery_trabajos_engine_chain",
+      "description": "Motor en proceso de armado y calibración técnica en banco de trabajo",
+      "caption": "Desarme completo, rectificación y cambio de distribución",
+      "url": "https://images.unsplash.com/photo-1676018366904-c083ed678e60?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHw0fHxjYXIlMjByZXBhaXIlMjB3b3Jrc2hvcCUyMG1lY2hhbmljJTIwZ2FyYWdlfGVufDB8fHx8MTc5MDMwMTczNnww&ixlib=rb-4.1.0&q=85",
+      "usage": "Trabajos Realizados - Grid Item 3 (Motor colgado de cadena / banco de motor)"
+    },
+    {
+      "category": "gallery_trabajos_motos_night",
+      "description": "Motos y camionetas en atención mecánica nocturna y urgencias",
+      "caption": "Guardia técnica nocturna y rescate de camionetas y motos en Berisso",
+      "url": "https://images.unsplash.com/photo-1636761358757-0a616eb9e17e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHxtb3RvcmN5Y2xlJTIwbWVjaGFuaWMlMjBuaWdodCUyMGdhcmFnZXxlbnwwfHx8fDE3OTAzMDE3MzZ8MA&ixlib=rb-4.1.0&q=85",
+      "usage": "Trabajos Realizados - Grid Item 4 (Camioneta y motos de noche / Urgencias)"
+    },
+    {
+      "category": "gallery_trabajos_workshop_sign",
+      "description": "Cartel y fachada del taller mecánico con herramientas e infraestructura industrial",
+      "caption": "Instalaciones de Taller San Román en Berisso equipadas para alta precisión",
+      "url": "https://images.unsplash.com/photo-1570129476815-ba368ac77013?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwxfHxjYXIlMjByZXBhaXIlMjB3b3Jrc2hvcCUyMG1lY2hhbmljJTIwZ2FyYWdlfGVufDB8fHx8MTc5MDMwMTczNnww&ixlib=rb-4.1.0&q=85",
+      "usage": "Trabajos Realizados - Grid Item 5 (Cartel / Interior del taller)"
+    }
+  ],
+  "layout_and_sections": [
+    {
+      "id": "header",
+      "title": "Sticky Brand Header",
+      "components": [
+        "Brand Logo SVG (Taller San Román con insignia de pistón/llave geométrica)",
+        "Estado en vivo: 'Abierto 24hs / Guardia activa'",
+        "CTA directo WhatsApp verde táctil con icono",
+        "CTA Llamar directo"
+      ],
+      "specs": "Sticky top-0 z-50 bg-[#0B0C0E]/85 backdrop-blur-xl border-b border-white/10 px-4 py-3 sm:px-8"
+    },
+    {
+      "id": "hero",
+      "title": "Kinetic Hero with Urgency Hook",
+      "components": [
+        "Badges de Confianza: 'GUARDIAS & URGENCIAS 24HS' en rojo pulsante + '★ 4.9 en Google (140+ reseñas)'",
+        "Título H1 Impactante con reveal animado: '¿TE QUEDASTE EN LA CALLE? SOLUCIÓN MECÁNICA INMEDIATA EN BERISSO'",
+        "Subtítulo con propuesta de valor clara y 'Presupuesto sin cargo'",
+        "Botones táctiles grandes (Mobile First): Botón WhatsApp #25D366 con mensaje precargado + Botón Llamar con borde amarillo #F5C518",
+        "Quick diagnostic tags: 'Autos • Camionetas • Camiones • Motos'"
+      ]
+    },
+    {
+      "id": "marquee",
+      "title": "Editorial Kinetic Ticker",
+      "copy": "PRESUPUESTO SIN CARGO • ATENCIÓN 24 HORAS • REPUESTOS EN EL DÍA • MECÁNICA INTEGRAL BERISSO • DIAGNÓSTICO COMPUTARIZADO • TALLER SAN ROMÁN • "
+    },
+    {
+      "id": "servicios",
+      "title": "Nuestros Servicios",
+      "items": [
+        {
+          "tag": "01 / PRINCIPAL",
+          "title": "Mecánica General e Integral",
+          "desc": "Reparación y ajuste de motor, tren delantero y trasero, frenos ABS, embrague, inyección electrónica y suspensión para todas las marcas.",
+          "badge": "Diagnóstico Preciso"
+        },
+        {
+          "tag": "02 / PREVENTIVO",
+          "title": "Service y Mantenimiento",
+          "desc": "Cambio de aceite y filtros oficiales, distribución, chequeo pre-VTV integral, escaneo computarizado y fluidos con entrega en el día.",
+          "badge": "Mantené tu Garantía"
+        },
+        {
+          "tag": "03 / EMERGENCIAS",
+          "title": "Urgencias y Auxilio 24hs",
+          "desc": "Atención mecánica fuera de horario, auxilio mecánico en Berisso y zonas aledañas. No te dejamos varado.",
+          "badge": "Guardia Activa 24/7"
+        }
+      ]
+    },
+    {
+      "id": "trabajos",
+      "title": "Trabajos en Taller",
+      "subtitle": "Fotos reales de vehículos atendidos en nuestras instalaciones de Berisso",
+      "grid_mode": "Tetris Grid Asimétrico con marcos recortados, badges de estado y micro-copy explicativo"
+    },
+    {
+      "id": "por_que_elegirnos",
+      "title": "¿Por qué elegir Taller San Román?",
+      "pillars": [
+        {
+          "num": "01",
+          "title": "Reputación Comprobada (4.9★)",
+          "desc": "Más de 140 vecinos de Berisso y La Plata avalan nuestra honestidad, claridad en los diagnósticos y trato personalizado."
+        },
+        {
+          "num": "02",
+          "title": "Atención Fuera de Horario y 24hs",
+          "desc": "Sabemos que las fallas mecánicas no avisan. Contás con nuestra línea de guardia para emergencias reales."
+        },
+        {
+          "num": "03",
+          "title": "Repuestos en el Día",
+          "desc": "Convenios con los principales distribuidores oficiales de repuestos para que tu auto no pase días detenido."
+        }
+      ]
+    },
+    {
+      "id": "resenas",
+      "title": "Lo que dicen nuestros clientes",
+      "badge": "4.9★ en Google Maps",
+      "link_google": "https://maps.google.com/?q=Taller+San+Roman+Berisso",
+      "reviews": [
+        {
+          "author": "Matías G.",
+          "rating": 5,
+          "vehicle": "Ford Ranger 4x4",
+          "date": "Hace 2 semanas",
+          "comment": "Me salvó un domingo a la noche con un problema en la bomba de agua. Gabriel es súper atento, transparente con los precios y el presupuesto sin cargo fue exacto. 100% recomendable en Berisso."
+        },
+        {
+          "author": "Carolina V.",
+          "rating": 5,
+          "vehicle": "Peugeot 208",
+          "date": "Hace 1 mes",
+          "comment": "Llevé el auto para el service y frenos antes de la VTV. Me pasaron fotos de todo lo cambiado y me lo entregaron impecable a la tarde. Da gusto encontrar mecánicos tan honestos."
+        },
+        {
+          "author": "Esteban R.",
+          "rating": 5,
+          "vehicle": "Mercedes-Benz Sprinter",
+          "date": "Hace 3 semanas",
+          "comment": "Excelente atención para utilitarios de laburo. Repuestos en el día y el motor quedó un reloj. No voy a otro taller."
+        }
+      ]
+    },
+    {
+      "id": "contacto",
+      "title": "Ubicación y Contacto Directo",
+      "components": [
+        "Badge 'Presupuesto Sin Cargo'",
+        "Dirección física clara en Berisso, Buenos Aires",
+        "Horarios: Lunes a Sábados 8:00 a 19:00 hs | Guardia de Urgencias: 24 Horas",
+        "Mapa interactivo / Embed visual de Berisso",
+        "Botones de contacto masivos (WhatsApp Gabriel + Llamada)"
+      ]
+    },
+    {
+      "id": "footer",
+      "title": "Footer Institucional con Schema LocalBusiness",
+      "components": [
+        "Microdata / JSON-LD LocalBusiness para SEO local en Berisso",
+        "Copy de copyright y aviso legal",
+        "Botón flotante persistente de WhatsApp en esquina inferior derecha con tooltip '¿Tenés una urgencia?'"
+      ]
+    }
+  ],
+  "motion_and_interactions": {
+    "smooth_scroll": "Lenis smooth scroll integration",
+    "framer_motion": {
+      "stagger_children": 0.1,
+      "viewport_once": true,
+      "hero_reveal": "Mask clip-path reveal line by line with Anton display",
+      "cards_hover": "Hover lift -translate-y-1 with subtle gold border glow",
+      "emergency_pulse": "Pulse effect on 24hs urgency badge and WhatsApp floating CTA"
+    }
+  },
+  "testing_attributes": {
+    "header_whatsapp_btn": "data-testid=\"header-whatsapp-cta\"",
+    "header_call_btn": "data-testid=\"header-call-cta\"",
+    "hero_whatsapp_btn": "data-testid=\"hero-whatsapp-cta\"",
+    "hero_call_btn": "data-testid=\"hero-call-cta\"",
+    "floating_whatsapp_btn": "data-testid=\"floating-whatsapp-cta\"",
+    "service_card_1": "data-testid=\"service-card-general\"",
+    "service_card_2": "data-testid=\"service-card-service\"",
+    "service_card_3": "data-testid=\"service-card-urgencias\"",
+    "gallery_grid": "data-testid=\"trabajos-gallery-grid\"",
+    "reviews_section": "data-testid=\"reviews-section\"",
+    "google_reviews_link": "data-testid=\"google-reviews-link\"",
+    "contact_whatsapp_btn": "data-testid=\"contact-whatsapp-cta\"",
+    "contact_call_btn": "data-testid=\"contact-call-cta\""
+  },
+  "instructions_to_main_agent": [
+    "1. Replace index.html opening tag with <html lang='es' class='dark'> and set title 'Taller San Román | Mecánica General y Urgencias 24hs Berisso'.",
+    "2. In frontend/src/index.css, configure the dark theme tokens (#0B0C0E background, #F5C518 yellow, #FF3D2E red, #25D366 WhatsApp). Use Anton (or sans-serif high-impact display font) and Archivo.",
+    "3. Build all components with mobile-first mindset: touch targets at least 48px high for CTAs, direct links to wa.me with prefilled message 'Hola Gabriel, necesito ayuda con mi vehículo...'.",
+    "4. NO contact form — as specified, only direct WhatsApp and Call buttons.",
+    "5. Embed schema.org/AutoRepair LocalBusiness JSON-LD in the page head or layout for Berisso SEO.",
+    "6. Include the floating WhatsApp button with an urgent badge and pulse effect on the bottom right.",
+    "7. Include all 5 gallery photos with custom industrial borders and tags.",
+    "8. Ensure every CTA has proper test attributes (data-testid) for automated testing."
+  ]
+}
