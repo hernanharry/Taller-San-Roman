@@ -3,9 +3,9 @@ import { Star, ExternalLink } from "lucide-react";
 import { GOOGLE_MAPS_URL } from "@/lib/site";
 
 const REVIEWS = [
-  { author: "Matías G.", vehicle: "Ford Ranger 4x4", text: "Me salvó un domingo a la noche con la bomba de agua. Gabriel es súper atento y transparente con los precios. 100% recomendable." },
-  { author: "Carolina V.", vehicle: "Peugeot 208", text: "Service y frenos antes de la VTV. Me pasaron fotos de todo lo cambiado y me lo entregaron impecable a la tarde." },
-  { author: "Esteban R.", vehicle: "Mercedes Sprinter", text: "Excelente con utilitarios de laburo. Repuestos en el día y el motor quedó un reloj. No voy a otro taller." },
+  { author: "Gaston Poncetta", date: "Hace 8 meses", text: "Excelente servicio. Me quedé varado en la ruta un domingo y no solo me repararon el auto, sino que consiguieron el repuesto el mismo día. Muy recomendable." },
+  { author: "Diego Alejandro", date: "Hace 2 semanas", text: "Gracias Gabriel, me salvaste un sábado a la tarde cuando otros talleres estaban cerrados. Me diste una mano de verdad." },
+  { author: "Matías Denóvile", date: "Hace 2 años", text: "Tuvimos un problema con el rulemán de la rueda en plena madrugada y Gabriel lo arregló rápido, con una predisposición destacable. ¡Muy recomendable!" },
 ];
 
 export const Resenas = () => (
@@ -57,7 +57,7 @@ export const Resenas = () => (
           <p className="mt-4 text-sm leading-relaxed text-zinc-300">"{r.text}"</p>
           <footer className="mt-4 text-xs">
             <span className="font-bold text-white">{r.author}</span>
-            <span className="text-zinc-500"> · {r.vehicle}</span>
+            <span className="text-zinc-500"> · {r.date} · Google</span>
           </footer>
         </motion.blockquote>
       ))}

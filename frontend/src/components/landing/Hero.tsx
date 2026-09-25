@@ -43,7 +43,7 @@ export const Hero = () => {
             Urgencias 24hs
           </span>
           <span className="flex items-center gap-1.5 rounded-full bg-[#1F222A] px-4 py-1.5 text-xs font-bold text-[#F5C518]" data-testid="hero-badge-rating">
-            <Star className="h-3.5 w-3.5 fill-[#F5C518]" /> 4.9 en Google · 140+ reseñas
+            <Star className="h-3.5 w-3.5 fill-[#F5C518]" /> 4.9 en Google · 35 reseñas
           </span>
         </motion.div>
 

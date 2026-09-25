@@ -18,12 +18,14 @@ Landing de una sola página para taller mecánico en Berisso. Objetivo único: m
 - Horarios: Lun–Vie 9–13 y 15–20, Sáb 9–13, urgencias 24hs (tomados de la ficha de Google).
 
 ## Implementado (2026-09-25)
-- Landing completa one-page con las 8 secciones, botón flotante WhatsApp, marquee editorial, grid asimétrico de trabajos con fotos reales, testimonios, mapa embebido, schema LocalBusiness, lazy loading, data-testids en todos los CTAs.
-- Verificado: typecheck limpio, curl /api OK, screenshots desktop + mobile por URL pública.
+- Landing completa one-page con las 8 secciones, botón flotante WhatsApp, marquee editorial, grid asimétrico de trabajos con fotos reales, mapa embebido, schema LocalBusiness, lazy loading, data-testids en todos los CTAs.
+- Logo nuevo del cliente (fondo negro, `logo-sanroman.jpg`) en header, contacto, footer y OG.
+- Reseñas REALES de la ficha de Google (Gaston Poncetta, Diego Alejandro, Matías Denóvile) — rating real: 4.9 con 35 reseñas (corregido desde el placeholder 140+; schema actualizado).
+- Imagen OG 1200×630 (`/og-image.jpg`, generada desde `/og.html`) con meta og:image/twitter:card para compartir por WhatsApp.
+- Verificado: typecheck limpio, curl /api OK, screenshots desktop + mobile por URL pública, captura de OG.
 
 ## Backlog
 - P0: Confirmar con el cliente dirección exacta (discrepancia Berisso vs ficha Google "Munro").
 - P1: Foto de Gabriel para "Por qué elegirnos" (marca personal).
-- P1: Reemplazar testimonios de muestra por reseñas reales copiadas de Google.
-- P2: Versión PNG transparente del logo (hoy se usa el cartel JPG completo en header/footer).
-- P2: OG image dedicada para compartir por WhatsApp.
+- P2: Versión PNG transparente del logo (hoy se usa el banner JPG fondo negro).
+- P2: Sumar más reseñas reales (hay 35 en la ficha).
